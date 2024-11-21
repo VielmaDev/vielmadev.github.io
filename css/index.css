@@ -1,0 +1,385 @@
+html, 
+body, 
+h1, 
+h2, 
+h3, 
+ul, 
+li, 
+a, 
+.content,
+.cite,
+.icon,
+.item,
+.photo{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+
+body {
+    background: linear-gradient(rgba(31, 48, 58, 0.65), rgba(31, 48, 58, 0.65)), url("../img/wallpaper.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+/* Menu */
+#menu {
+  display: flex;
+  justify-content:flex-end;
+  }
+
+#menu .nav-item{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: rgb(255, 255, 255, 0.9);
+    border-right: 1px solid #fff;
+    display: block;
+    padding: 10px;
+    
+  }
+
+#menu .nav-item:hover{
+    background: rgb(0,0,0,0.3);
+  }
+
+#menu .nav .nav-item .nav-link{
+    color: rgb(255, 255, 255, 0.9);
+    font-weight: bold;
+  }
+
+#menu .nav .nav-item .nav-active .nav-link{
+    color: rgb(255, 255, 255, 0.9);
+    text-decoration: underline;
+  }
+
+  @media(max-width:678px){
+    #menu{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      font-size: 0.95rem; 
+    }
+  }
+
+  @media(max-width:678px){
+    #menu .nav-item{
+      padding: 5px;
+      
+    }
+  }
+
+
+.title{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.6rem;
+  color: rgba(201, 245, 6, 0.9);
+  display: flex;
+  position:relative;
+  justify-content:center;
+  transform:translateY(40%);
+}
+
+  @media(max-width:678px){
+    .title{
+      font-size: 1.7rem;
+      position:relative;
+      justify-content:center;
+      text-align: center;
+    } 
+  }
+
+.subtitle,
+.sub-subtitle,
+.content,
+.cite,
+.photo,
+.icon,
+.gif,
+.list-item,
+.footer{
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255, 0.9);
+  display: flex;
+  position:relative;
+  }
+
+  .subtitle{
+    justify-content: center;
+    transform:translateY(130%)
+    }
+  
+    @media(max-width:678px){
+    .subtitle{
+      font-size: 1.2rem;
+      position: relative;
+      text-align: center;
+      transform: translateY(105%);
+    }
+  }
+ 
+#intro{
+  position: relative;
+  justify-content: center;
+  transform:translateY(41%);
+}
+
+  .photo{
+    border-radius: 50%;
+    width: 245px;
+    height: 245px;
+    float: inline-end;
+    left: -18%;
+    }
+  
+    @media(max-width:678px){
+      .photo{
+        position:relative;
+        transform: translate(-5%, -65%);
+        width: 230px;
+        height: 230px;
+    }
+  }
+
+  .content{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.5;
+    width: 580px;
+    left: 18%;
+    }
+
+  @media(max-width:678px){
+  .content{
+    font-size: 1.1rem;
+    position: relative;
+    transform: translate(-15%, -65%);
+    width: 355px;
+  }
+}
+
+#tools{
+  position: relative;
+  justify-content: center;
+  transform:translateY(145%);
+}
+
+  .cite{
+    font-size: 1.3rem;
+    justify-content: center;
+  }
+
+  @media(max-width:678px){
+  .cite{
+    font-size: 1.0rem;
+    position: relative;
+    transform: translate(0%, 14%);
+  }
+}
+
+  .icon{
+    display:inline-block;
+    left: 35%;
+    width: 3%;
+    height: 3%;
+    padding-top: 8px;
+  }
+
+  @media(max-width:678px){
+    .icon{
+      width: 6%;
+      height:6%;
+      position: relative;
+      transform: translate(-275%, 30%);
+    }
+  }
+
+
+/*footer*/
+.footer{
+  position: relative;
+  justify-content: center;
+  transform: translateY(585%);
+  padding-bottom: 8px;
+  }
+
+  @media(max-width:678px){
+    .footer{
+      position: relative;
+      transform: translate(0%, 630%);
+    }
+  }
+
+
+/* page contacto */ 
+#eslogan{
+  position: relative;
+  transform:translateY(45%);
+}
+
+  .img-web{
+    border-radius: 4%;
+    width: 340px;
+    height: 260px;
+    display: flex;
+    position:relative;
+    float: inline-start;
+    left: 22%;
+    }
+
+    @media(max-width:678px){
+      .img-web{
+        position:relative;
+        transform: translate(-17%, -40%);
+      }
+    }
+  
+
+  #subtitle{
+    font-size: 1.6rem;
+    text-align:center;
+    line-height: 1.5;
+    width: 450px;
+    left: 22%;
+    transform:translateY(85%);
+    }
+
+  @media(max-width:678px){
+    #subtitle{
+      text-align: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      width: 330px;
+      font-weight: bold;
+      position: relative;
+      transform: translate(-17%, -125%);
+    }
+  }
+
+#address{
+  position: relative;
+  transform: translateY(85%);
+}
+
+  .gif{
+    width: 6%;
+    height: 6%;
+    left: 35%;
+    padding: 6px;
+  }
+
+  @media(max-width:678px){
+      .gif{
+        width: 20%;
+        height:20%;
+        position: relative;
+        transform: translate(17%, 5%);
+      }
+    }
+
+  .sub-subtitle{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    padding-bottom: 8px;
+    color: rgba(7, 228, 62, 0.9);
+    justify-content: center;
+  }
+
+    @media(max-width:678px){
+      .sub-subtitle{
+        font-size: 1.5rem;
+        text-align: center;
+        font-style: normal;
+        position: relative;
+        transform: translate(-1%, 50%);
+      }
+    }
+
+.links{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  text-align: justify;
+  transform: translateY(145%);
+  }
+
+  @media(max-width:678px){
+    .links{
+      position: relative;
+      transform: translateY(170%);
+    }
+  } 
+
+
+  .item{
+    position: relative;
+    left: 28%;
+    width: 3%;
+    height: 3%;
+  }
+
+  @media(max-width:678px){
+    .item{
+      position: relative;
+      left: 12%;
+      width: 10%;
+      height: 10%;
+    }
+  }
+
+  .link{
+    position: relative;
+    left: 29%;
+    color: rgb(255, 255, 255, 0.9);
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+
+  @media(max-width:678px){
+    .link{
+      position: relative;
+      left: 11%;
+
+    }
+  }
+
+  .link:link{
+    text-decoration: none;
+  }
+
+  .link:hover{
+    color: rgba(6, 181, 204, 0.9);
+    text-decoration: underline;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

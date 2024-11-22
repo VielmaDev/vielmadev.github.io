@@ -63,7 +63,7 @@ body {
     text-decoration: underline;
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     #menu{
       display: flex;
       position: relative;
@@ -72,7 +72,7 @@ body {
     }
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     #menu .nav-item{
       padding: 5px;
       
@@ -90,7 +90,7 @@ body {
   transform:translateY(40%);
 }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     .title{
       font-size: 1.7rem;
       position:relative;
@@ -119,7 +119,7 @@ body {
     transform:translateY(130%)
     }
   
-    @media(max-width:678px){
+    @media(max-width:578px){
     .subtitle{
       font-size: 1.2rem;
       position: relative;
@@ -142,7 +142,7 @@ body {
     left: -18%;
     }
   
-    @media(max-width:678px){
+    @media(max-width:578px){
       .photo{
         position:relative;
         transform: translate(-5%, -65%);
@@ -159,12 +159,12 @@ body {
     left: 18%;
     }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
   .content{
     font-size: 1.1rem;
     position: relative;
     transform: translate(-15%, -65%);
-    width: 355px;
+    width: 345px;
   }
 }
 
@@ -179,7 +179,7 @@ body {
     justify-content: center;
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
   .cite{
     font-size: 1.0rem;
     position: relative;
@@ -195,7 +195,7 @@ body {
     padding-top: 8px;
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     .icon{
       width: 6%;
       height:6%;
@@ -213,7 +213,7 @@ body {
   padding-bottom: 8px;
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     .footer{
       position: relative;
       transform: translate(0%, 630%);
@@ -237,7 +237,7 @@ body {
     left: 22%;
     }
 
-    @media(max-width:678px){
+    @media(max-width:578px){
       .img-web{
         position:relative;
         transform: translate(-17%, -40%);
@@ -254,7 +254,7 @@ body {
     transform:translateY(85%);
     }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     #subtitle{
       text-align: center;
       justify-content: center;
@@ -278,7 +278,7 @@ body {
     padding: 6px;
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
       .gif{
         width: 20%;
         height:20%;
@@ -297,7 +297,7 @@ body {
     justify-content: center;
   }
 
-    @media(max-width:678px){
+    @media(max-width:578px){
       .sub-subtitle{
         font-size: 1.5rem;
         text-align: center;
@@ -314,7 +314,7 @@ body {
   transform: translateY(145%);
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     .links{
       position: relative;
       transform: translateY(170%);
@@ -329,7 +329,7 @@ body {
     height: 3%;
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     .item{
       position: relative;
       left: 12%;
@@ -346,7 +346,7 @@ body {
     font-size: 1.2rem;
   }
 
-  @media(max-width:678px){
+  @media(max-width:578px){
     .link{
       position: relative;
       left: 11%;

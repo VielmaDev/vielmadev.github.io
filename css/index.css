@@ -260,6 +260,29 @@ aside #tools{
   padding: 17px;
 }
 
+#article-3 h2{
+  display: flex;
+  text-align: center;
+  font-size: 2.0rem;
+  font-style:normal;
+  color: rgba(7, 232, 240, 0.9);
+  padding: 20px 10px;
+}
+
+#article-3 h4{
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: rgba(242, 248, 248, 0.9);
+  padding: 20px 10px;
+}
+
+#article-3 img{
+  display: flex;
+  justify-self: center;
+}
+
 @media(max-width:768px){
   main{
     padding-top: 10px;
@@ -275,7 +298,8 @@ aside #tools{
   }
 
   #article-1 h4,
-  #article-2 h4{
+  #article-2 h4,
+  #article-3 h4{
     font-size: 1.2rem;
     text-align: center;
     padding: 10px 12px;
@@ -298,7 +322,7 @@ aside #tools{
   #article-1 h5,
   #article-2 h5{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     padding: 5px 5px;
   }
 

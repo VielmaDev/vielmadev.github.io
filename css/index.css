@@ -129,8 +129,7 @@ section{
   width: 100%;
 }
 
-section h2,
-section h3{
+section h2{
   display: flex;
   justify-content:center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -258,27 +257,30 @@ aside #tools{
   color:rgb(13, 240, 89);
 }
 
-#article-3 h2{
+#article-3 h3{
   display: flex;
   text-align: center;
   font-size: 2.0rem;
   font-style:normal;
   color: rgba(7, 232, 240, 0.9);
-  padding: 20px 10px;
-}
-
-#article-3 h4{
-  display: flex;
-  justify-content: center;
-  font-size: 1.4rem;
-  font-style: italic;
-  color: rgba(242, 248, 248, 0.9);
-  padding: 20px 10px;
+  padding: 3px 10px;
 }
 
 #article-3 img{
   display: flex;
-  justify-self: center;
+  float: inline-start;
+  border-radius: 8px;
+  width: 500px;
+  height: 280px;
+}
+
+#article-3 p{
+  display: flex;
+  text-align: justify;
+  padding: 7px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 1.1rem;
 }
 
 @media(max-width:768px){
@@ -340,6 +342,13 @@ aside #tools{
   aside #tools{
     justify-content: center;
     padding-bottom: 10px;
+  }
+
+  #article-3 img{
+    float:none;
+    justify-self: center;
+    width: 360px;
+    height: 240px;
   }
 
 }

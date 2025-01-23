@@ -217,14 +217,16 @@ aside #tools{
   height: 320px;
 }
 
-#article-2 ul{
+#article-2 ul,
+#article-3 ul{
   margin: 0;
   list-style: none;
   padding: 0;
   display:block;
 }
 
-#article-2 li{
+#article-2 li,
+#article-3 li{
   display: flex;
   justify-content: center;
   padding-top: 8px;
@@ -330,8 +332,9 @@ aside #tools{
     font-size: 1.2rem;
   }
 
-  #article-2 li{
-    font-size: 1.2rem;
+  #article-2 li,
+  #article-3 li{
+    font-size: 1.1rem;
   }
 
   #article-2 li img{
@@ -347,8 +350,8 @@ aside #tools{
   #article-3 img{
     float:none;
     justify-self: center;
-    width: 360px;
-    height: 240px;
+    width: 320px;
+    height: 200px;
   }
 
 }

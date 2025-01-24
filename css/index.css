@@ -5,7 +5,7 @@ body{
 }
 
 body {
-    background: linear-gradient(rgba(31, 48, 58, 0.65), rgba(31, 48, 58, 0.65)), url("../img/wallpaper.png");
+    background: linear-gradient(rgba(14, 21, 26, 0.65), rgba(14, 21, 26, 0.65)), url("../img/wallpaper.png");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -217,6 +217,7 @@ aside #tools{
   height: 320px;
 }
 
+
 #article-2 ul,
 #article-3 ul{
   margin: 0;
@@ -225,8 +226,7 @@ aside #tools{
   display:block;
 }
 
-#article-2 li,
-#article-3 li{
+#article-2 li{
   display: flex;
   justify-content: center;
   padding-top: 8px;
@@ -251,10 +251,9 @@ aside #tools{
 }
 
 #article-2 h5{
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-style: italic;
   color:rgb(13, 240, 89);
 }
@@ -262,7 +261,7 @@ aside #tools{
 #article-3 h3{
   display: flex;
   text-align: center;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   font-style:normal;
   color: rgba(7, 232, 240, 0.9);
   padding: 3px 10px;
@@ -272,17 +271,21 @@ aside #tools{
   display: flex;
   float: inline-start;
   border-radius: 8px;
-  width: 500px;
-  height: 280px;
+  width: 405px;
+  height: 275px;
+  padding: 0px 10px;
 }
 
 #article-3 p{
-  display: flex;
   text-align: justify;
   padding: 7px 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255, 0.9);
   font-size: 1.1rem;
+}
+
+#article-3 a{
+  color: rgb(16, 212, 212);
 }
 
 @media(max-width:768px){
@@ -307,18 +310,32 @@ aside #tools{
     padding: 10px 12px;
   }
 
-  #article-1 img,
+  #article-1 img{
+    float:none;
+    justify-self: center;
+    width: 300px;
+    height: 230px;
+  }
+
   #article-2 img{
     float:none;
     justify-self: center;
-    width: 300x;
-    height: 300px;
+    width: 260px;
+    height: 260px;
   }
 
-  #article-1 p{
+  #article-3 img{
+    float:none;
+    justify-self: center;
+    width: 305px;
+    height: 195px;
+  }
+
+  #article-1 p,
+  #article-3 p{
     text-align:justify;
     padding: 5px 12px;
-    font-size: 1.0rem;
+    font-size: 0.96rem;
   }
 
   #article-1 h5{
@@ -347,12 +364,7 @@ aside #tools{
     padding-bottom: 10px;
   }
 
-  #article-3 img{
-    float:none;
-    justify-self: center;
-    width: 320px;
-    height: 200px;
-  }
+ 
 
 }
 

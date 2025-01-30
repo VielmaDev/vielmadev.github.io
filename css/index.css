@@ -258,10 +258,13 @@ aside #tools{
   color:rgb(13, 240, 89);
 }
 
+#article-3{
+  padding-top: 6px;
+}
+
 #article-3 h3{
-  display: flex;
-  text-align: center;
-  font-size: 1.8rem;
+  text-align:end;
+  font-size: 1.6rem;
   font-style:normal;
   color: rgba(7, 232, 240, 0.9);
   padding: 3px 10px;
@@ -271,8 +274,8 @@ aside #tools{
   display: flex;
   float: inline-start;
   border-radius: 8px;
-  width: 405px;
-  height: 275px;
+  width: 350px;
+  height: 220px;
   padding: 0px 10px;
 }
 
@@ -281,7 +284,7 @@ aside #tools{
   padding: 7px 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255, 0.9);
-  font-size: 1.1rem;
+  font-size: 0.98rem;
 }
 
 #article-3 a{
@@ -310,6 +313,10 @@ aside #tools{
     padding: 10px 12px;
   }
 
+  #article-3 h3{
+    text-align: center;
+  }
+
   #article-1 img{
     float:none;
     justify-self: center;
@@ -331,10 +338,15 @@ aside #tools{
     height: 195px;
   }
 
-  #article-1 p,
-  #article-3 p{
+  #article-1 p{
     text-align:justify;
     padding: 5px 12px;
+    font-size: 0.96rem;
+  }
+
+  #article-3 p{
+    text-align:justify;
+    padding: 5px 5px;
     font-size: 0.96rem;
   }
 

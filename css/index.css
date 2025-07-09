@@ -12,18 +12,21 @@ body {
   }
 
 header{
+  position: relative;
+  transform: translateY(-40%);
   width: 100%;
-  background: linear-gradient(rgba(14, 21, 26, 0.40), rgba(14, 21, 26, 0.40))
+  background: linear-gradient(rgba(13, 18, 22, 0.5), rgba(13, 18, 22, 0.5))
 }
 
 #banner{
   text-align: start;
-  font-size: 1.5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(250, 250, 250, 0.90);
-  padding: 1px 30px;
+}
+
+#banner img{
+  position: relative;
+  display: inline-block;
+  transform: translateY(22%);
+  padding-left: 12px;
 }
 
 main{
@@ -31,6 +34,8 @@ main{
 }
 
 section{
+  position: relative;
+  transform: translateY(-15%);
   width: 100%;
 }
 
@@ -55,8 +60,10 @@ article{
   text-align:center;
 }
 
-#imagen{
-  display: block;
+#imagen img{
+  display:flexbox;
+  width: 340px;
+  height: 280px;
 }
 
 #publicidad{
@@ -75,6 +82,8 @@ article{
 }
 
 aside{
+  position: relative;
+  transform: translateY(-27%);
   width: 100%;
   height: 40%;
   background: linear-gradient(rgba(92, 177, 238, 0.4), rgba(92, 177, 238, 0.4))
@@ -108,42 +117,27 @@ aside{
 
 /*footer*/
 footer{
+  position: relative;
+  transform: translateY(-30%);
   width: 100%;
   }
 
 #copyright{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
 
 
 @media(max-width:768px){
 
-  header label{
-    display: block;
+  #title h2{
+    font-size: 1.8rem;
   }
 
-  header #logo{
-    display: none;
-  }
-
-  main{
-    padding-top: 10px;
-  }
-
-  section h2{
-    font-size: 1.6rem;
-    -webkit-text-stroke-width: 1px;
-  }
-
-  #img{
-    width: 300px;
-    height: 240px;
-  }
-
-  #article{
-    padding: 10px 12px;
+  #imagen img{
+    width: 280px;
+    height: 220px;
   }
 
   #publicidad h4{
@@ -154,11 +148,6 @@ footer{
   #publicidad h5{
     font-size: 1.0rem;
     font-weight: bold;
-  }
-
-
-  aside h6{
-    font-size: 0.80rem;
   }
 
 }

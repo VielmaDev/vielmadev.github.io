@@ -83,16 +83,16 @@ article{
 
 aside{
   position: relative;
-  transform: translateY(-27%);
+  transform: translateY(-28%);
   width: 100%;
-  height: 40%;
+  height: 36%;
   background: linear-gradient(rgba(92, 177, 238, 0.4), rgba(92, 177, 238, 0.4))
 }
 
 #email h6,
 #red h6{
   position: relative;
-  transform: translateY(65%);
+  transform: translateY(70%);
   font-size: 1.0rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(250, 250, 250);
@@ -101,7 +101,7 @@ aside{
 #email img,
 #red img{
   position: relative;
-  transform: translateY(-25%);
+  transform: translateY(-21%);
   width: 50px;
   height: 50px;
 }
@@ -111,7 +111,7 @@ aside{
   color: rgb(250, 250, 250);
   font-size: 1.2rem;
   position: relative;
-  transform: translateY(-105%);
+  transform: translateY(-100%);
 }
 
 
@@ -130,6 +130,14 @@ footer{
 
 
 @media(max-width:768px){
+
+  #banner{
+  text-align:center;
+}
+
+#banner img{
+  display: flexbox;
+}
 
   #title h2{
     font-size: 1.8rem;

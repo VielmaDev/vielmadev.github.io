@@ -25,7 +25,11 @@
         </div>
 
         <div class="container" id="imagen">
-            <img src="img/publicidad.png" style="border-radius: 8px;">
+            <img  id="publicidad" 
+                  src="img/publicidad 1.png" 
+                  onmouseover="changeImage('img/publicidad 2.png')" 
+                  onmouseout="changeImage('img/publicidad 1.png')" 
+                  style="border-radius: 8px;">
         </div>
 
         <div class="container" id="publicidad">
@@ -66,6 +70,13 @@
         </div>
       </aside>
   </main>
+
+  <script>
+    function changeImage(imagePath) {
+      const imgElement = document.getElementById('publicidad');
+      imgElement.src = imagePath;
+    }
+  </script>
 
   <!--footer-->
   <footer>

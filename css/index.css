@@ -64,7 +64,9 @@ article{
   display:flexbox;
   width: 340px;
   height: 280px;
+  transition: opacity 0.3s ease-in-out; /* Suaviza la transición si cambias opacidad */
 }
+
 
 #publicidad{
   font-family: 'Courier New', Courier, monospace;
@@ -105,6 +107,7 @@ aside{
   width: 50px;
   height: 50px;
 }
+
 
 #email p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;

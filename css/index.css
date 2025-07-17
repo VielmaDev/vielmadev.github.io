@@ -44,7 +44,6 @@ section{
   font-size: 2.4rem;
   text-align: center;
   color: rgb(250, 250, 249);
-  text-decoration: underline;
   text-shadow: 
   0 0 10px skyblue,
   0 0 20px skyblue,
@@ -74,13 +73,17 @@ article{
   text-align:center;
 }
 
-#publicidad h4{
+#publicidad h3{
   font-size: 1.6rem;
+}
+
+#publicidad h4{
+  font-size: 1.5rem;
   font-style: italic;
 }
 
 #publicidad h5{
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 aside{
@@ -151,13 +154,18 @@ footer{
     height: 220px;
   }
 
-  #publicidad h4{
-    font-size: 1.2rem;
+  #publicidad h3{
+    font-size: 1.3rem;
     font-style: normal;
   }
 
+  #publicidad h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
   #publicidad h5{
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     font-weight: bold;
   }
 

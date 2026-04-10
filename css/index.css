@@ -61,8 +61,8 @@ article{
 
 #imagen img{
   display:flexbox;
-  width: 340px;
-  height: 280px;
+  width: 341px;
+  height: 333px;
   transition: opacity 0.3s ease-in-out; /* Suaviza la transición si cambias opacidad */
 }
 

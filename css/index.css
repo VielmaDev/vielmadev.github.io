@@ -135,7 +135,7 @@ footer{
 
 @media(max-width:768px){
 
-  #banner{
+#banner{
   text-align:center;
 }
 
@@ -153,12 +153,12 @@ footer{
   }
 
   #publicidad h3{
-    font-size: 1.2rem;
-    font-style: normal;
+    font-size: 1.1rem;
   }
 
   #publicidad h4{
-    font-size: 1.1rem;
+    font-size: 1.0rem;
+    color: rgb(220, 243, 10);
   }
 
   #publicidad h5{

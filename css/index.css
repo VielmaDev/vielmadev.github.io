@@ -39,13 +39,6 @@ section{
   width: 100%;
 }
 
-#title h2{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2.4rem;
-  text-align: center;
-  color: rgb(250, 250, 249);
-}
-
 article{
   width: 100%;
 }
@@ -55,34 +48,60 @@ article{
 }
 
 #imagen img{
-  display:flexbox;
-  margin-top: 65px;
+  display:inline-flexbox;
+  position: relative;
+  transform: translateY(28%);
   width: 390px;
   height: 350px;
   transition: opacity 0.3s ease-in-out; /* Suaviza la transición si cambias opacidad */
 }
 
-
 #publicidad{
+  display: inline-flexbox;
+  position: relative;
+  transform: translateY(28%);
   color: rgb(250, 250, 250);
   text-align:center;
 }
 
-#publicidad h3{
+#publicidad h3,
+#publicidad h4{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.6rem;
 }
 
 #publicidad h4{
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 1.8rem;
-  color: rgb(220, 243, 10);
+  font-style: italic;
 }
 
 #publicidad h5{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.6rem;
-  font-style: italic;
+  font-size: 1.7rem;
+  text-decoration:underline;
+  color: rgb(220, 243, 10);
+}
+
+ul{
+  display:inline-block;
+  list-style: none;
+}
+
+li{
+  position: relative;
+  transform: translateY(-85%);
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(250, 250, 250);
+  font-size: 1.2rem;
+}
+
+li img{
+  position: relative;
+  transform: translateY(40%);
+  padding-right:15px;
+  padding-bottom: 5px;
+  width: 42px;
+  height: 42px;
 }
 
 aside{
@@ -158,12 +177,21 @@ footer{
   }
 
   #publicidad h4{
-    font-size: 1.2rem;
-    color: rgb(220, 243, 10);
+    font-size: 1.1rem;
   }
 
   #publicidad h5{
-    font-size: 1.0rem;
+    font-size: 1.1rem;
+    color: rgb(220, 243, 10);
+  }
+
+  li{
+    font-size: 0.9rem;
+  }
+
+  li img{
+    width: 28px;
+    height: 28px;
   }
 
 }

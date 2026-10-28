@@ -51,8 +51,8 @@ article{
   display:inline-flexbox;
   position: relative;
   transform: translateY(28%);
-  width: 390px;
-  height: 350px;
+  width: 380px;
+  height: 320px;
   transition: opacity 0.3s ease-in-out; /* Suaviza la transición si cambias opacidad */
 }
 
@@ -129,7 +129,6 @@ aside{
   height: 50px;
 }
 
-
 #email p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(250, 250, 250);
@@ -193,6 +192,21 @@ footer{
     width: 28px;
     height: 28px;
   }
+
+  #email h6,
+  #red h6{
+  font-size: 0.9rem;
+}
+
+#email p{
+  font-size: 1.0rem;
+}
+
+#email img,
+#red img{
+  width: 30px;
+  height: 30px;
+}
 
 }
 

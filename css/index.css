@@ -137,9 +137,9 @@ aside{
   transform: translateY(-100%);
 }
 
-
 /*footer*/
 footer{
+  display: inline-block;
   position: relative;
   transform: translateY(-30%);
   width: 100%;
@@ -148,9 +148,7 @@ footer{
 #copyright{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(255, 255, 255);
-  padding: 15px 0px;
 }
-
 
 @media(max-width:768px){
 
@@ -206,6 +204,10 @@ footer{
 #red img{
   width: 30px;
   height: 30px;
+}
+
+#copyright{
+  font-size: 0.8rem;
 }
 
 }

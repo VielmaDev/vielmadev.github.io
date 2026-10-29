@@ -59,7 +59,7 @@ article{
 #publicidad{
   display: inline-flexbox;
   position: relative;
-  transform: translateY(28%);
+  transform: translateY(24%);
   color: rgb(250, 250, 250);
   text-align:center;
 }
@@ -83,6 +83,8 @@ article{
 
 ul{
   display:inline-block;
+  position: relative;
+  transform: translateX(-3%);
   list-style: none;
 }
 
@@ -93,11 +95,13 @@ li{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(250, 250, 250);
   font-size: 1.2rem;
+  font-weight:600;
+  font-style: italic;
 }
 
 li img{
   position: relative;
-  transform: translateY(40%);
+  transform: translateY(45%);
   padding-right:15px;
   padding-bottom: 5px;
   width: 42px;
@@ -160,39 +164,35 @@ footer{
   display: flexbox;
 }
 
-  #title h2{
-    font-size: 1.5rem;
-  }
-
-  #imagen img{
+#imagen img{
     width: 280px;
     height: 220px;
   }
 
-  #publicidad h3{
+#publicidad h3{
     font-size: 1.0rem;
   }
 
-  #publicidad h4{
-    font-size: 1.1rem;
+#publicidad h4{
+    font-size: 1.0rem;
   }
 
-  #publicidad h5{
+#publicidad h5{
     font-size: 1.1rem;
     color: rgb(220, 243, 10);
   }
 
-  li{
+li{
     font-size: 0.9rem;
   }
 
-  li img{
+li img{
     width: 28px;
     height: 28px;
   }
 
-  #email h6,
-  #red h6{
+#email h6,
+#red h6{
   font-size: 0.9rem;
 }
 
